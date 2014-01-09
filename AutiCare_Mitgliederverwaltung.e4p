@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric5 project file for project AutiCare_Mitgliederverwaltung -->
-<!-- Saved: 2014-01-09, 13:46:46 -->
+<!-- Saved: 2014-01-09, 16:32:50 -->
 <!-- Copyright (C) 2014 Marco Gaib, info@auticare.de -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -15,8 +15,16 @@
   <Sources>
     <Source>amv.py</Source>
     <Source>__init__.py</Source>
+    <Source>libs/__init__.py</Source>
+    <Source>libs/settings.py</Source>
+    <Source>libs/helper.py</Source>
+    <Source>ui/__init__.py</Source>
+    <Source>ui/Ui_MainWindow.py</Source>
+    <Source>ui/MainWindow.py</Source>
   </Sources>
-  <Forms/>
+  <Forms>
+    <Form>ui/MainWindow.ui</Form>
+  </Forms>
   <Translations/>
   <Resources/>
   <Interfaces/>
