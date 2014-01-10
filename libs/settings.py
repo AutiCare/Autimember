@@ -72,3 +72,6 @@ class appsettings():
         
     def getappname(self):
         return self.getsetting('MainSection', 'appname')
+        
+    def getdatabasepath(self):
+        return self.getsetting('MainSection', 'databasepath')

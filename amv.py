@@ -1,7 +1,6 @@
 #!/usr/bin/python
 from libs import settings
-from libs import helper
-from PyQt4 import QtCore,  QtGui
+from PyQt4 import QtGui
 from ui.MainWindow import MainWindow
 #Init the application before loading the interface
 

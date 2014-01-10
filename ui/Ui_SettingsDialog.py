@@ -44,6 +44,12 @@ class Ui_Dialog(object):
         self.lineEdit = QtGui.QLineEdit(Dialog)
         self.lineEdit.setObjectName(_fromUtf8("lineEdit"))
         self.formLayout.setWidget(0, QtGui.QFormLayout.FieldRole, self.lineEdit)
+        self.label_2 = QtGui.QLabel(Dialog)
+        self.label_2.setObjectName(_fromUtf8("label_2"))
+        self.formLayout.setWidget(1, QtGui.QFormLayout.LabelRole, self.label_2)
+        self.databaseEdit = QtGui.QLineEdit(Dialog)
+        self.databaseEdit.setObjectName(_fromUtf8("databaseEdit"))
+        self.formLayout.setWidget(1, QtGui.QFormLayout.FieldRole, self.databaseEdit)
         self.verticalLayout.addLayout(self.formLayout)
         self.horizontalLayout = QtGui.QHBoxLayout()
         self.horizontalLayout.setObjectName(_fromUtf8("horizontalLayout"))
@@ -63,6 +69,7 @@ class Ui_Dialog(object):
     def retranslateUi(self, Dialog):
         Dialog.setWindowTitle(_translate("Dialog", "Einstellungen", None))
         self.label.setText(_translate("Dialog", "Version", None))
+        self.label_2.setText(_translate("Dialog", "Datenbank", None))
         self.cancelBtn.setText(_translate("Dialog", "Abbrechen", None))
         self.saveBtn.setText(_translate("Dialog", "Speichern", None))
 

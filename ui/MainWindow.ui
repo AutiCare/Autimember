@@ -44,7 +44,14 @@
     <addaction name="actionEinstellungen"/>
     <addaction name="actionQuit"/>
    </widget>
+   <widget class="QMenu" name="menuDebug">
+    <property name="title">
+     <string>Debug</string>
+    </property>
+    <addaction name="actionTest"/>
+   </widget>
    <addaction name="menuDatei"/>
+   <addaction name="menuDebug"/>
   </widget>
   <action name="actionQuit">
    <property name="text">
@@ -54,6 +61,11 @@
   <action name="actionEinstellungen">
    <property name="text">
     <string>Einstellungen</string>
+   </property>
+  </action>
+  <action name="actionTest">
+   <property name="text">
+    <string>test</string>
    </property>
   </action>
  </widget>

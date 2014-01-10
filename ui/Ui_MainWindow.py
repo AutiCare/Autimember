@@ -37,14 +37,20 @@ class Ui_MainWindow(object):
         self.menuBar.setObjectName(_fromUtf8("menuBar"))
         self.menuDatei = QtGui.QMenu(self.menuBar)
         self.menuDatei.setObjectName(_fromUtf8("menuDatei"))
+        self.menuDebug = QtGui.QMenu(self.menuBar)
+        self.menuDebug.setObjectName(_fromUtf8("menuDebug"))
         MainWindow.setMenuBar(self.menuBar)
         self.actionQuit = QtGui.QAction(MainWindow)
         self.actionQuit.setObjectName(_fromUtf8("actionQuit"))
         self.actionEinstellungen = QtGui.QAction(MainWindow)
         self.actionEinstellungen.setObjectName(_fromUtf8("actionEinstellungen"))
+        self.actionTest = QtGui.QAction(MainWindow)
+        self.actionTest.setObjectName(_fromUtf8("actionTest"))
         self.menuDatei.addAction(self.actionEinstellungen)
         self.menuDatei.addAction(self.actionQuit)
+        self.menuDebug.addAction(self.actionTest)
         self.menuBar.addAction(self.menuDatei.menuAction())
+        self.menuBar.addAction(self.menuDebug.menuAction())
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
@@ -53,8 +59,10 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow", None))
         self.pushButton.setText(_translate("MainWindow", "PushButton", None))
         self.menuDatei.setTitle(_translate("MainWindow", "Datei", None))
+        self.menuDebug.setTitle(_translate("MainWindow", "Debug", None))
         self.actionQuit.setText(_translate("MainWindow", "Quit", None))
         self.actionEinstellungen.setText(_translate("MainWindow", "Einstellungen", None))
+        self.actionTest.setText(_translate("MainWindow", "test", None))
 
 
 if __name__ == "__main__":

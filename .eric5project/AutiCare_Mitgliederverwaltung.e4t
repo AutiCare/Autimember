@@ -1,34 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Tasks SYSTEM "Tasks-5.1.dtd">
 <!-- eric5 tasks file for project AutiCare_Mitgliederverwaltung -->
-<!-- Saved: 2014-01-09, 20:51:16 -->
+<!-- Saved: 2014-01-10, 09:19:58 -->
 <Tasks version="5.1">
   <ProjectScanFilter></ProjectScanFilter>
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-01-09, 20:46:55</Created>
+    <Created>2014-01-09, 21:06:00</Created>
     <Resource>
       <Filename>ui/SettingsDialog.py</Filename>
-      <Linenumber>34</Linenumber>
+      <Linenumber>35</Linenumber>
     </Resource>
   </Task>
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-01-09, 20:46:55</Created>
+    <Created>2014-01-09, 21:06:00</Created>
     <Resource>
       <Filename>ui/SettingsDialog.py</Filename>
-      <Linenumber>42</Linenumber>
+      <Linenumber>43</Linenumber>
     </Resource>
   </Task>
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-01-09, 20:51:13</Created>
+    <Created>2014-01-10, 03:07:02</Created>
     <Resource>
       <Filename>ui/MainWindow.py</Filename>
       <Linenumber>32</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2014-01-10, 04:48:03</Created>
+    <Resource>
+      <Filename>ui/testwindow.py</Filename>
+      <Linenumber>35</Linenumber>
     </Resource>
   </Task>
 </Tasks>

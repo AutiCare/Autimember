@@ -24,6 +24,7 @@ class Dialog(QDialog, Ui_Dialog):
         QDialog.__init__(self, parent)
         self.setupUi(self)
         self.lineEdit.setText(mainapp.getversion())
+        self.databaseEdit.setText(mainapp.getdatabasepath())
         
     
     @pyqtSignature("")
@@ -41,4 +42,5 @@ class Dialog(QDialog, Ui_Dialog):
         """
         # TODO: not implemented yet
         self.mainapp.writesetting('MainSection', 'version', self.lineEdit.text())
+        self.mainapp.writesetting('MainSection', 'databasepath', self.databaseEdit.text())
         self.close()

@@ -42,3 +42,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         from SettingsDialog import Dialog 
         settingsDialog = Dialog(self.mainapp)
         settingsDialog.exec_()
+
+    @pyqtSignature("")
+    def on_actionTest_activated(self):
+        from testwindow import testwindow
+        testWindow = testwindow(self.mainapp)
+        testWindow.exec_()
